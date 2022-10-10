@@ -8,4 +8,4 @@ EXPOSE 5000
 
 RUN npm i && npm run build && npx prisma generate           
 
-CMD ["npm", "start"]      
+CMD ["npm", "run", "dev"]      
