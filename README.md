@@ -8,6 +8,8 @@ Entretanto, para a aplicação funcionar em sua máquina é necessário ter prev
 docker-compose up -d
 ```
 
+E criar um arquivo .env com as variáveis presentes no .env.example
+
 Rotas:
 
 A rota GET /students retorna a lista de todos os estudantes.
